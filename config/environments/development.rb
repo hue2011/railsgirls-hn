@@ -38,4 +38,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-end
+
+ config.action_mailer.default_url_options = { host: 'https://ide.c9.io/hue2011/railsgirls', port: 8080 }
+ end
